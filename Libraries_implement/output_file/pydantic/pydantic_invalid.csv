@@ -1,0 +1,2649 @@
+id,name,category,price,quantity,date,error
+1,Product_A,Clothing,invalid,9,2024-01-03,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+2,Product_B,Electronics,invalid,,2024-02-01,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+3,Product_C,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+4,Product_D,Clothing,invalid,ten,2024-01-21,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+5,Product_E,Grocery,invalid,9,2024-01-28,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+6,Product_F,Grocery,invalid,ten,2024-02-22,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+7,Product_G,Clothing,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+8,Product_H,Clothing,1499,ten,2024-02-22,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+9,Product_I,Grocery,invalid,2,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+10,Product_J,Clothing,1144,,2024-02-22,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+11,Product_K,Grocery,,ten,2024-01-05,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+13,Product_M,Grocery,,,2024-01-28,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+14,Product_N,Grocery,868,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+15,Product_O,Electronics,invalid,,2024-02-11,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+16,Product_P,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+17,Product_Q,Grocery,invalid,ten,2024-02-23,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+18,Product_R,Grocery,2343,,2024-02-02,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+19,Product_S,Electronics,invalid,3,2024-01-23,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+20,Product_T,Clothing,627,ten,2024-01-03,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+21,Product_U,Grocery,1727,3,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+22,Product_V,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+23,Product_W,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+24,Product_X,Clothing,invalid,,2024-02-25,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+26,Product_Z,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+28,Product_B,Electronics,1017,10,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+30,Product_D,Grocery,invalid,,2024-02-10,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+32,Product_F,Electronics,1874,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+33,Product_G,Grocery,,,2024-01-25,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+34,Product_H,Grocery,1870,ten,2024-01-08,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+35,Product_I,Clothing,invalid,5,2024-01-24,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+36,Product_J,Clothing,394,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+37,Product_K,Grocery,,ten,2024-02-24,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+38,Product_L,Electronics,,,2024-01-22,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+39,Product_M,Clothing,invalid,2,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+40,Product_N,Electronics,invalid,8,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+41,Product_O,Electronics,2478,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+42,Product_P,Electronics,,,2024-02-20,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+43,Product_Q,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+44,Product_R,Clothing,178,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+45,Product_S,Grocery,1244,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+46,Product_T,Grocery,780,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+47,Product_U,Electronics,1874,,2024-01-17,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+48,Product_V,Clothing,1986,,2024-01-07,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+50,Product_X,Electronics,invalid,9,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+51,Product_Y,Grocery,invalid,5,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+52,Product_Z,Clothing,1890,ten,2024-02-06,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+54,Product_B,Clothing,invalid,,2024-01-23,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+55,Product_C,Electronics,,ten,2024-01-27,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+56,Product_D,Clothing,,ten,2024-03-01,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+57,Product_E,Electronics,invalid,ten,2024-02-13,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+58,Product_F,Clothing,,ten,2024-01-18,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+59,Product_G,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+60,Product_H,Grocery,invalid,9,2024-02-29,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+62,Product_J,Grocery,,ten,2024-02-25,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+63,Product_K,Clothing,,ten,2024-01-21,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+64,Product_L,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+67,Product_O,Electronics,invalid,4,2024-02-06,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+68,Product_P,Electronics,2466,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+69,Product_Q,Electronics,,4,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+70,Product_R,Grocery,1377,ten,2024-02-09,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+71,Product_S,Grocery,invalid,ten,2024-02-17,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+72,Product_T,Electronics,1448,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+73,Product_U,Grocery,invalid,,2024-01-16,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+74,Product_V,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+75,Product_W,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+76,Product_X,Clothing,1903,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+78,Product_Z,Grocery,invalid,5,2024-02-13,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+79,Product_A,Electronics,528,ten,2024-01-08,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+82,Product_D,Electronics,758,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+84,Product_F,Grocery,invalid,ten,2024-02-23,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+85,Product_G,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+86,Product_H,Electronics,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+87,Product_I,Clothing,,ten,2024-01-11,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+88,Product_J,Electronics,invalid,,2024-01-07,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+90,Product_L,Grocery,invalid,,2024-02-19,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+91,Product_M,Clothing,264,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+92,Product_N,Grocery,1180,,2024-02-26,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+93,Product_O,Clothing,,ten,2024-02-19,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+94,Product_P,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+95,Product_Q,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+96,Product_R,Electronics,,ten,2024-01-24,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+97,Product_S,Electronics,1120,8,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+98,Product_T,Grocery,,,2024-01-26,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+99,Product_U,Grocery,2486,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+100,Product_V,Electronics,2189,ten,2024-01-07,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+101,Product_W,Grocery,invalid,7,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+102,Product_X,Grocery,,,2024-01-02,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+103,Product_Y,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+104,Product_Z,Grocery,,,2024-02-29,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+105,Product_A,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+106,Product_B,Electronics,385,7,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+107,Product_C,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+108,Product_D,Grocery,,ten,2024-02-03,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+109,Product_E,Clothing,,ten,2024-01-17,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+110,Product_F,Grocery,invalid,,2024-01-31,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+111,Product_G,Clothing,1124,5,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+112,Product_H,Grocery,,,2024-02-14,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+113,Product_I,Electronics,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+114,Product_J,Clothing,invalid,4,2024-01-10,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+115,Product_K,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+116,Product_L,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+117,Product_M,Clothing,,ten,2024-02-24,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+118,Product_N,Electronics,1854,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+120,Product_P,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+122,Product_R,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+123,Product_S,Electronics,invalid,10,2024-02-23,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+124,Product_T,Clothing,1557,,2024-02-20,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+125,Product_U,Grocery,invalid,,2024-01-08,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+126,Product_V,Electronics,invalid,1,2024-01-03,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+127,Product_W,Grocery,1954,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+128,Product_X,Clothing,2005,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+129,Product_Y,Electronics,invalid,4,2024-02-12,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+130,Product_Z,Electronics,675,,2024-01-25,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+131,Product_A,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+132,Product_B,Grocery,1118,,2024-02-25,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+133,Product_C,Clothing,invalid,4,2024-01-06,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+134,Product_D,Clothing,1544,5,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+135,Product_E,Clothing,invalid,,2024-01-25,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+136,Product_F,Clothing,2008,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+137,Product_G,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+138,Product_H,Clothing,,,2024-01-04,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+139,Product_I,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+140,Product_J,Electronics,,,2024-02-02,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+141,Product_K,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+142,Product_L,Clothing,invalid,8,2024-01-29,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+143,Product_M,Grocery,invalid,6,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+144,Product_N,Clothing,,10,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+146,Product_P,Grocery,invalid,3,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+147,Product_Q,Electronics,2194,,2024-02-13,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+148,Product_R,Grocery,164,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+149,Product_S,Grocery,2407,,2024-02-12,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+150,Product_T,Grocery,invalid,,2024-02-05,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+151,Product_U,Clothing,2029,ten,2024-02-28,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+154,Product_X,Electronics,441,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+155,Product_Y,Clothing,1614,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+156,Product_Z,Grocery,invalid,6,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+157,Product_A,Electronics,,,2024-02-17,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+159,Product_C,Electronics,151,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+160,Product_D,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+161,Product_E,Clothing,invalid,,2024-02-14,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+162,Product_F,Electronics,2303,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+163,Product_G,Clothing,914,,2024-01-19,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+165,Product_I,Grocery,invalid,,2024-01-13,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+166,Product_J,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+167,Product_K,Clothing,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+168,Product_L,Clothing,,,2024-02-13,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+170,Product_N,Grocery,1729,,2024-01-14,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+171,Product_O,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+172,Product_P,Clothing,1503,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+173,Product_Q,Electronics,2077,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+174,Product_R,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+175,Product_S,Grocery,,,2024-01-24,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+176,Product_T,Clothing,276,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+177,Product_U,Clothing,283,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+178,Product_V,Clothing,invalid,ten,2024-02-12,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+179,Product_W,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+180,Product_X,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+181,Product_Y,Grocery,invalid,2,2024-01-20,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+182,Product_Z,Electronics,invalid,4,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+184,Product_B,Clothing,494,,2024-02-17,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+185,Product_C,Electronics,invalid,ten,2024-01-11,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+186,Product_D,Clothing,1526,,2024-02-26,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+187,Product_E,Clothing,331,ten,2024-01-03,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+188,Product_F,Clothing,invalid,4,2024-01-06,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+189,Product_G,Clothing,invalid,,2024-02-12,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+192,Product_J,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+193,Product_K,Electronics,2274,ten,2024-01-10,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+194,Product_L,Grocery,840,ten,2024-02-06,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+195,Product_M,Clothing,invalid,ten,2024-01-16,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+196,Product_N,Grocery,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+197,Product_O,Electronics,,10,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+199,Product_Q,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+200,Product_R,Grocery,1998,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+201,Product_S,Electronics,524,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+202,Product_T,Clothing,601,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+203,Product_U,Grocery,invalid,4,2024-01-19,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+204,Product_V,Grocery,2022,,2024-02-26,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+205,Product_W,Clothing,1390,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+206,Product_X,Electronics,,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+207,Product_Y,Grocery,2329,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+209,Product_A,Electronics,638,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+210,Product_B,Clothing,invalid,3,2024-02-28,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+211,Product_C,Clothing,,,2024-02-20,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+212,Product_D,Grocery,815,,2024-02-15,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+213,Product_E,Clothing,invalid,ten,2024-02-15,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+214,Product_F,Grocery,invalid,2,2024-01-21,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+215,Product_G,Clothing,invalid,,2024-01-25,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+216,Product_H,Electronics,invalid,3,2024-01-22,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+217,Product_I,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+218,Product_J,Clothing,,,2024-01-22,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+219,Product_K,Clothing,invalid,,2024-02-01,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+220,Product_L,Grocery,2153,ten,2024-01-09,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+221,Product_M,Grocery,1512,,2024-02-15,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+222,Product_N,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+223,Product_O,Electronics,962,3,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+224,Product_P,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+225,Product_Q,Grocery,123,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+226,Product_R,Clothing,424,,2024-01-03,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+228,Product_T,Clothing,550,5,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+229,Product_U,Grocery,1644,4,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+230,Product_V,Clothing,,ten,2024-02-24,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+231,Product_W,Grocery,,,2024-02-11,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+232,Product_X,Electronics,invalid,6,2024-01-24,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+233,Product_Y,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+234,Product_Z,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+235,Product_A,Electronics,1291,,2024-02-17,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+236,Product_B,Grocery,2022,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+237,Product_C,Electronics,invalid,ten,2024-02-18,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+238,Product_D,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+239,Product_E,Grocery,invalid,,2024-01-29,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+240,Product_F,Electronics,1475,8,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+241,Product_G,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+242,Product_H,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+243,Product_I,Clothing,2327,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+244,Product_J,Grocery,invalid,ten,2024-02-01,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+245,Product_K,Grocery,invalid,,2024-01-20,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+246,Product_L,Electronics,710,8,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+247,Product_M,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+248,Product_N,Clothing,787,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+249,Product_O,Clothing,535,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+251,Product_Q,Clothing,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+252,Product_R,Electronics,1624,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+253,Product_S,Electronics,invalid,7,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+254,Product_T,Clothing,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+255,Product_U,Grocery,1510,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+256,Product_V,Clothing,1213,,2024-01-17,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+257,Product_W,Clothing,,3,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+258,Product_X,Clothing,1471,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+259,Product_Y,Grocery,invalid,ten,2024-02-21,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+260,Product_Z,Grocery,invalid,4,2024-01-05,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+261,Product_A,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+262,Product_B,Clothing,2118,ten,2024-02-28,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+263,Product_C,Clothing,invalid,10,2024-02-19,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+264,Product_D,Clothing,226,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+265,Product_E,Electronics,invalid,,2024-01-18,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+266,Product_F,Grocery,982,ten,2024-02-17,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+267,Product_G,Electronics,810,ten,2024-02-20,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+268,Product_H,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+269,Product_I,Clothing,1237,ten,2024-02-29,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+270,Product_J,Grocery,1209,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+271,Product_K,Electronics,,,2024-01-28,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+272,Product_L,Clothing,1052,,2024-02-15,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+273,Product_M,Grocery,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+274,Product_N,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+275,Product_O,Grocery,invalid,,2024-01-05,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+276,Product_P,Clothing,,,2024-01-15,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+277,Product_Q,Grocery,,,2024-01-18,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+278,Product_R,Clothing,562,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+279,Product_S,Electronics,1672,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+280,Product_T,Electronics,726,ten,2024-02-12,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+281,Product_U,Electronics,2406,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+282,Product_V,Electronics,822,8,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+283,Product_W,Electronics,394,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+284,Product_X,Clothing,2418,,2024-02-16,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+285,Product_Y,Electronics,2178,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+286,Product_Z,Electronics,,ten,2024-02-08,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+287,Product_A,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+288,Product_B,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+289,Product_C,Clothing,,ten,2024-02-02,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+290,Product_D,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+291,Product_E,Grocery,2324,,2024-02-01,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+292,Product_F,Clothing,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+293,Product_G,Clothing,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+294,Product_H,Clothing,1728,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+295,Product_I,Clothing,invalid,,2024-01-06,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+297,Product_K,Clothing,2442,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+298,Product_L,Clothing,invalid,7,2024-01-24,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+299,Product_M,Electronics,,,2024-02-27,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+300,Product_N,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+303,Product_Q,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+304,Product_R,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+305,Product_S,Electronics,invalid,2,2024-02-28,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+306,Product_T,Electronics,,ten,2024-01-18,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+308,Product_V,Electronics,invalid,,2024-01-30,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+309,Product_W,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+310,Product_X,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+311,Product_Y,Electronics,,,2024-01-15,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+312,Product_Z,Clothing,2014,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+313,Product_A,Clothing,,,2024-02-11,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+314,Product_B,Grocery,1717,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+315,Product_C,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+316,Product_D,Electronics,invalid,10,2024-02-24,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+318,Product_F,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+319,Product_G,Electronics,2171,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+320,Product_H,Grocery,915,ten,2024-02-18,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+321,Product_I,Clothing,1574,,2024-02-07,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+323,Product_K,Clothing,530,1,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+324,Product_L,Clothing,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+325,Product_M,Grocery,invalid,ten,2024-01-30,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+326,Product_N,Electronics,1348,,2024-01-04,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+327,Product_O,Electronics,invalid,3,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+329,Product_Q,Grocery,invalid,9,2024-01-17,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+330,Product_R,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+331,Product_S,Grocery,1479,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+332,Product_T,Electronics,859,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+333,Product_U,Clothing,invalid,3,2024-02-01,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+334,Product_V,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+335,Product_W,Electronics,invalid,ten,2024-02-22,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+336,Product_X,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+337,Product_Y,Clothing,2239,8,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+338,Product_Z,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+339,Product_A,Grocery,invalid,,2024-01-20,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+340,Product_B,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+341,Product_C,Clothing,invalid,ten,2024-02-08,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+342,Product_D,Grocery,1121,,2024-01-19,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+343,Product_E,Clothing,2316,ten,2024-02-22,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+344,Product_F,Grocery,invalid,4,2024-02-22,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+345,Product_G,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+346,Product_H,Electronics,invalid,7,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+347,Product_I,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+348,Product_J,Grocery,501,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+349,Product_K,Clothing,358,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+350,Product_L,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+351,Product_M,Clothing,749,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+352,Product_N,Grocery,1973,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+353,Product_O,Electronics,1317,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+354,Product_P,Electronics,invalid,,2024-02-14,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+356,Product_R,Electronics,2423,ten,2024-01-24,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+357,Product_S,Grocery,1814,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+358,Product_T,Clothing,1497,,2024-01-04,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+359,Product_U,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+360,Product_V,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+361,Product_W,Clothing,invalid,2,2024-01-10,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+362,Product_X,Grocery,invalid,,2024-01-05,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+363,Product_Y,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+365,Product_A,Electronics,invalid,ten,2024-02-16,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+366,Product_B,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+367,Product_C,Electronics,850,ten,2024-02-11,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+368,Product_D,Grocery,invalid,,2024-02-06,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+369,Product_E,Clothing,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+370,Product_F,Electronics,1658,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+371,Product_G,Grocery,1620,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+372,Product_H,Electronics,invalid,ten,2024-01-27,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+373,Product_I,Clothing,invalid,4,2024-01-09,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+374,Product_J,Clothing,invalid,,2024-01-06,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+375,Product_K,Grocery,invalid,3,2024-02-22,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+376,Product_L,Grocery,1828,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+377,Product_M,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+378,Product_N,Clothing,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+379,Product_O,Electronics,invalid,ten,2024-01-08,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+380,Product_P,Clothing,invalid,9,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+381,Product_Q,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+382,Product_R,Grocery,,5,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+384,Product_T,Grocery,,,2024-02-23,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+385,Product_U,Clothing,2228,9,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+386,Product_V,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+388,Product_X,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+389,Product_Y,Grocery,invalid,ten,2024-01-22,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+390,Product_Z,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+391,Product_A,Electronics,,,2024-01-08,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+392,Product_B,Grocery,invalid,1,2024-03-01,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+393,Product_C,Electronics,invalid,,2024-01-09,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+394,Product_D,Clothing,1279,4,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+395,Product_E,Clothing,,4,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+396,Product_F,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+397,Product_G,Electronics,1251,ten,2024-02-29,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+398,Product_H,Grocery,,,2024-01-28,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+399,Product_I,Clothing,invalid,ten,2024-02-05,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+400,Product_J,Clothing,1618,ten,2024-02-12,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+402,Product_L,Electronics,invalid,,2024-02-18,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+403,Product_M,Electronics,invalid,,2024-02-17,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+404,Product_N,Electronics,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+405,Product_O,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+406,Product_P,Electronics,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+407,Product_Q,Grocery,,ten,2024-02-23,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+408,Product_R,Electronics,1301,,2024-02-19,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+409,Product_S,Clothing,1795,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+410,Product_T,Grocery,invalid,5,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+411,Product_U,Grocery,invalid,ten,2024-01-06,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+412,Product_V,Clothing,465,ten,2024-01-28,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+413,Product_W,Clothing,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+415,Product_Y,Clothing,108,ten,2024-02-16,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+416,Product_Z,Clothing,2327,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+417,Product_A,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+418,Product_B,Clothing,invalid,1,2024-02-03,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+419,Product_C,Electronics,598,ten,2024-02-23,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+420,Product_D,Grocery,,ten,2024-02-20,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+421,Product_E,Grocery,,,2024-01-03,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+422,Product_F,Electronics,invalid,10,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+424,Product_H,Electronics,invalid,2,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+425,Product_I,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+426,Product_J,Clothing,1578,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+427,Product_K,Grocery,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+428,Product_L,Grocery,,ten,2024-01-09,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+429,Product_M,Electronics,,ten,2024-02-23,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+430,Product_N,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+431,Product_O,Clothing,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+432,Product_P,Electronics,1792,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+433,Product_Q,Grocery,543,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+434,Product_R,Grocery,,ten,2024-01-03,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+435,Product_S,Electronics,invalid,,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+436,Product_T,Clothing,,10,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+437,Product_U,Clothing,105,ten,2024-02-08,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+438,Product_V,Grocery,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+439,Product_W,Clothing,invalid,,2024-02-04,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+440,Product_X,Electronics,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+441,Product_Y,Clothing,1425,3,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+442,Product_Z,Electronics,121,,2024-01-02,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+444,Product_B,Clothing,227,10,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+445,Product_C,Clothing,1689,,2024-01-19,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+446,Product_D,Clothing,invalid,ten,2024-01-20,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+447,Product_E,Electronics,1799,,2024-01-25,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+448,Product_F,Clothing,invalid,9,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+449,Product_G,Electronics,2488,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+450,Product_H,Clothing,1660,4,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+451,Product_I,Electronics,968,,2024-02-09,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+452,Product_J,Electronics,689,ten,2024-01-28,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+453,Product_K,Clothing,1451,ten,2024-02-22,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+454,Product_L,Grocery,1378,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+455,Product_M,Grocery,,,2024-01-21,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+456,Product_N,Electronics,2205,,2024-02-10,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+457,Product_O,Electronics,1755,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+458,Product_P,Grocery,invalid,1,2024-02-11,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+460,Product_R,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+461,Product_S,Grocery,1536,ten,2024-02-09,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+462,Product_T,Grocery,1583,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+463,Product_U,Grocery,invalid,10,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+464,Product_V,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+465,Product_W,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+466,Product_X,Electronics,invalid,10,2024-02-08,"1 validation error for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing"
+467,Product_Y,Grocery,,ten,2024-01-14,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+468,Product_Z,Grocery,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+470,Product_B,Grocery,439,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+471,Product_C,Grocery,1426,,2024-02-19,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+472,Product_D,Clothing,204,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+473,Product_E,Grocery,498,ten,2024-01-11,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+474,Product_F,Electronics,2491,,2024-01-24,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+475,Product_G,Electronics,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+476,Product_H,Clothing,2187,ten,2024-02-13,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+477,Product_I,Clothing,324,,2024-01-25,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+478,Product_J,Clothing,,ten,2024-02-13,"1 validation error for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+479,Product_K,Electronics,,5,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+480,Product_L,Electronics,invalid,ten,2024-02-26,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing"
+481,Product_M,Grocery,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+482,Product_N,Grocery,,,2024-01-30,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+483,Product_O,Clothing,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+485,Product_Q,Clothing,1235,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+486,Product_R,Grocery,,,2024-01-07,"1 validation error for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+487,Product_S,Clothing,,2,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+488,Product_T,Clothing,,ten,,"2 validation errors for Product
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+489,Product_U,Clothing,2398,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+491,Product_W,Clothing,invalid,,2024-02-06,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number"
+492,Product_X,Clothing,invalid,1,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+493,Product_Y,Grocery,,,,"2 validation errors for Product
+quantity
+  Input should be a finite number [type=finite_number, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/finite_number
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+495,Product_A,Electronics,invalid,3,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+496,Product_B,Grocery,1441,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+498,Product_D,Clothing,185,6,,"1 validation error for Product
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+499,Product_E,Clothing,invalid,3,,"2 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+500,Product_F,Clothing,invalid,ten,,"3 validation errors for Product
+price
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='invalid', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+quantity
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='ten', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing
+date
+  Input should be a valid string [type=string_type, input_value=nan, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
